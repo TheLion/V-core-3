@@ -4,46 +4,22 @@ hide:
   - navigation
 ---
 
-## Printed parts
+# Bill of Materials
 
-See [Files and printing](/printed_parts) for more information on printed parts.
+!!! warning "WARNING: Regarding the Raspberry Pi shortage"
 
-### EVA
+    The standard V-Core 3 kits require a Raspberry Pi, but do not currently include one due to the worldwide semiconductor shortage. Our user community has voted and made their voice heard - we will not be changing the Standard kit build, as individual users are still able to source their own Raspberry Pi. 
+    
+    For sourcing a Raspberry Pi in your country, the [:material-link-box-variant:Raspberry Pi Locator](https://rpilocator.com/){: target=_blank} website can be of great assistance!
 
-<img align="right" alt="EVA Logo" width="100" src="../assets/eva_logo.png">
-To download the most recent EVA parts go to https://main.eva-3d.page/, but if you are looking at stable parts that are tested by Rat Rig you can find those here: [:material-github: EVA 2.3.0 release](https://github.com/EVA-3D/eva-main/releases/tag/2.3.0)
+## V-Core 3.1 Core Kits
 
-### V-Core 3
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/vcore31_21102022_1550.csv){: .md-button .md-button--primary target=_blank}
 
-The whole repository, with CAD files can be downloaded under the following link:  
-[:material-download-box: Download All](https://github.com/Rat-Rig/V-core-3/archive/main.zip){: .md-button .md-button--primary}
+{{ hardware_bom("bom/vcore31_21102022_1550.csv") }}
 
-#### Essentials
+## V-Core 3.1 Enclosure 2.0 Kits
 
-{{ printed_parts_bom("bom/printed_parts_essentials.csv") }}
+[:material-table: Download in CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/enclosure2_09232022_1551.csv){: .md-button .md-button--primary target=_blank}
 
-#### Accessories
-
-{{ printed_parts_bom("bom/printed_parts_accessories.csv") }}
-
-#### Extras
-
-{{ printed_parts_bom("bom/printed_parts_extras.csv") }}
-
-#### Contrib and obsolete parts
-
-You can access parts that were contributed over at [:material-github: GitHub](https://github.com/Rat-Rig/V-core-3/tree/main/cad/printed_parts).
-
-## Hardware
-
-[:material-table: CSV Format](https://github.com/Rat-Rig/V-core-3/blob/main/docs/src/bom/V-CORE%203.0%20-%20pub.csv){: .md-button .md-button--primary target=_blank}
-
-{{ hardware_bom("bom/V-CORE 3.0 - pub.csv") }}
-
-## Enclosure
-
-{{ hardware_bom("bom/V-Core 3 Enclosure Kit Public BOM.csv") }}
-
-## Spool Holder
-
-{{ hardware_bom("bom/V-Core 3 Enclosure Kit Public BOM - spool holder.csv") }}
+{{ hardware_bom("bom/enclosure2_09232022_1551.csv") }}
